@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Instead of NationalParks, it is NationalPark -->
+<NationalPark xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="NationalParks.xsd">
+
+
+<!-- Nearest Airport attribute is missing -->
+    <NationalPark Rating="4.9">
+        <Name>Grand Canyon National Park</Name>
+        <Phone>928-638-7888</Phone>
+        <Phone>888-297-2757</Phone>
+        <Phone>866-499-2574</Phone>
+        <Address>
+            <Number>8</Number>
+            <Street>S Entrance Road</Street>
+            <City>Grand Canyon</City>
+            <State>AZ</State>
+            <Zip>86023</Zip>
+        </Address>
+    </NationalPark>
+
+<!-- Missing phone attribute -->
+    <NationalPark Rating="4.8">
+        <Name>Yosemite National Park</Name>
+        <Address NearestAirport="Frenso">
+            <Number>9035</Number>
+            <Street>Village Dr</Street>
+            <City>Yosemite </City>
+            <State>CA</State>
+            <Zip>95389</Zip>
+        </Address>
+    </NationalPark>
+
+
+<!-- Missing closing tag for Address attribute-->
+    <NationalPark Rating="4.9">
+        <Name>Mount Rainer National Park</Name>
+        <Phone>360-569-2211</Phone>
+        <Address NearestAirport="Seattle">
+            <Number>55210</Number>
+            <Street>238th Avenue East</Street>
+            <City>Ashford</City>
+            <State>WA</State>
+            <Zip>98304</Zip>
+    </NationalPark>
+
+<!-- Two Name elements-->
+     <NationalPark Rating="4.7">
+        <Name>Glacier National Park</Name>
+        <Name>Glacier</Name>
+        <Phone>406-888-7800</Phone>
+        <Address NearestAirport="Kalispell">
+            <Number>64</Number>
+            <Street>Grinnell Dr</Street>
+            <City>West Glacier</City>
+            <State>MT</State>
+            <Zip>59936</Zip>
+        </Address>
+    </NationalPark>   
+
+
+<!-- A park with all tags included -->
+    <NationalPark Rating="4.9">
+        <Name>Yellowstone National Park</Name>
+        <Phone>307-344-7381</Phone>
+        <Phone>307-344-2107</Phone>
+        <Address NearestAirport="Bozeman">
+            <Number>2</Number>
+            <Street>Officers Row</Street>
+            <City>Yellowstone National Park</City>
+            <State>WY</State>
+            <Zip>82190</Zip>
+        </Address>
+    </NationalPark>
