@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="https://prana4.github.io/cse445_a4" targetNamespace="https://prana4.github.io/cse445_a4" elementFormDefault="qualified">
   <xs:element name="NationalParks" type="NationalParksType"/>
     
   <xs:complexType name="NationalParksType">
